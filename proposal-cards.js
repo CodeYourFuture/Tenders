@@ -23,7 +23,7 @@ class ProposalCards extends HTMLElement {
   // fetch the data from the Github Issues API
   async fetchIssues() {
     const response = await fetch(
-      "https://api.github.com/repos/CodeYourFuture/Changes/issues"
+      "https://api.github.com/repos/CodeYourFuture/Tenders/issues"
     );
     const data = await response.json();
     this.proposalData = data; // set the proposalData property with the fetched data
