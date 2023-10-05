@@ -98,7 +98,7 @@ class ProposalCards extends HTMLElement {
               .map(
                 (label) => `
               <li style="--label:#${label.color}">
-                <a href="https://github.com/CodeYourFuture/Changes/labels/${label.name}">${label.name}</a>
+                <a href="https://github.com/CodeYourFuture/Tenders/labels/${label.name}">${label.name}</a>
               </li>
             `
               )
